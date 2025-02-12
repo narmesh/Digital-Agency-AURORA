@@ -28,7 +28,7 @@ A premium agency-style website showcasing advanced animations and seamless user 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/aurora-website.git
+git clone https://github.com/narmesh/Digital-Agency-AURORA.git
 ```
 
 2. Navigate to the project directory:
@@ -41,7 +41,7 @@ cd Digital-Agency-AURORA
 ### Custom Cursor
 The custom cursor implementation can be modified in the script section. Adjust the cursor size and animation parameters:
 
-```javascript```
+```javascript
 gsap.to(cursor, {
     scale: 2.4,
     background: '#4facfe',
@@ -53,7 +53,7 @@ gsap.to(cursor, {
 ### Animation Timelines
 Modify the loading sequence and animations in the GSAP timeline:
 
-```javascript```
+```javascript
 const tl = gsap.timeline();
 tl.to('.loader', {
     // Animation parameters
@@ -63,7 +63,7 @@ tl.to('.loader', {
 ### Scroll Triggers
 Customize scroll-based animations using ScrollTrigger:
 
-```javascript```
+```javascript
 gsap.from('.feature-card', {
     scrollTrigger: {
         trigger: '.features-grid',
@@ -116,7 +116,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📫 Contact
 
-Narmesh Kumar Sah - LinkedIn: https://www.linkedin.com/in/narmeshkumarsah/
+Narmesh Kumar Sah - LinkedIn: (https://www.linkedin.com/in/narmeshkumarsah/)
 
 ## 🚀 Future Improvements
 
